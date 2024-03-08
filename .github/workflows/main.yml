@@ -11,7 +11,7 @@ jobs:
 
     steps:
     - name: Download
-      run: Invoke-WebRequest https://github.com/shadowninja024/host/blob/main/ngroknew.zip -OutFile ngrok.zip
+      run: Invoke-WebRequest https://github.com/shadowninja024/host/blob/main/ngroknew.zip -OutFile ngroknew.zip
     - name: Extract
       run: Expand-Archive ngrok.zip
     - name: Auth
